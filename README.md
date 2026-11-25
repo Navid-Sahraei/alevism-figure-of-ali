@@ -6,6 +6,7 @@ Presenter: Navid Sahraei · Instructor: Dr. Khanna Usoyan
 
 - **Presentation:** https://navid-sahraei.github.io/alevism-figure-of-ali/
 - **Handout:** https://navid-sahraei.github.io/alevism-figure-of-ali/handout/
+- **QR code page (to project in class):** https://navid-sahraei.github.io/alevism-figure-of-ali/qr/
 
 Both are single, self-contained HTML files (fonts and images embedded) and also work offline when downloaded.
 
