@@ -1,4 +1,4 @@
-# Introduction to Alevism & the Figure of Ali
+# Introduction to Alevism and the Figure of Ali
 
 Seminar presentation and student handout for the course *Beyond the Mainstream: Religious Minorities in the Iranian-Speaking World*, Institute of Iranian Studies, Freie Universität Berlin (Winter Semester 2026/27).
 
