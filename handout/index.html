@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Handout · Alevism & the Figure of Ali</title>
+<style>
+:root{--bg:#F5F5F7;--card:#fff;--ink:#1D1D1F;--ink2:#3A3A3C;--mute:#6E6E73;--sep:rgba(0,0,0,.09);--fill:#E8E8ED;
+--gold:#B8862D;--navy:#2457A3;--crimson:#B0283D;--green:#2E7D57;--slate:#4A5568;--sh:0 .5px 1px rgba(0,0,0,.05),0 4px 16px rgba(0,0,0,.05)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Inter","Segoe UI",Roboto,system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:var(--navy)}
+.wrap{max-width:760px;margin:0 auto;padding:0 18px 60px}
+header{padding:44px 0 18px}
+.eyebrow{font-size:14px;font-weight:600;color:var(--gold)}
+h1{font-size:34px;line-height:1.1;letter-spacing:-.03em;margin:8px 0 10px}
+h1 span{color:var(--gold)}
+.meta{font-size:14.5px;color:var(--mute)}
+nav{position:sticky;top:0;z-index:5;background:rgba(245,245,247,.86);-webkit-backdrop-filter:blur(18px) saturate(180%);backdrop-filter:blur(18px) saturate(180%);margin:0 -18px;padding:10px 18px;border-bottom:.5px solid var(--sep);overflow-x:auto;white-space:nowrap;scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+nav a{display:inline-block;font-size:14px;font-weight:600;color:var(--ink2);text-decoration:none;padding:7px 13px;border-radius:999px;background:var(--fill);margin-right:6px}
+nav a:hover{background:#DCDCE1}
+section{padding-top:34px;scroll-margin-top:56px}
+h2{font-size:26px;letter-spacing:-.025em;line-height:1.15;margin-bottom:6px}
+h2 small{display:block;font-size:14px;font-weight:600;letter-spacing:0;color:var(--mute);margin-bottom:4px}
+.lead{color:var(--ink2);font-size:16px;margin-bottom:14px}
+.card{background:var(--card);border-radius:16px;padding:16px 18px;box-shadow:var(--sh);margin-bottom:12px}
+.card h3{font-size:17px;letter-spacing:-.01em;margin-bottom:4px}
+.card p,.card li{font-size:15.5px;color:var(--ink2)}
+.card p+p{margin-top:8px}
+input[type=search]{width:100%;font:inherit;font-size:16px;padding:11px 14px;border-radius:12px;border:0;background:var(--fill);margin:6px 0 12px;outline:none}
+input[type=search]:focus{box-shadow:0 0 0 3px rgba(36,87,163,.3)}
+.ghead{font-size:16px;font-weight:600;color:var(--ink);cursor:pointer;list-style:none;background:var(--card);border-radius:14px;padding:13px 16px;box-shadow:var(--sh);margin-top:8px;display:flex;align-items:center;gap:8px}
+.ghead::-webkit-details-marker{display:none}
+.ghead::after{content:"›";margin-left:auto;color:#AEAEB2;font-size:22px;line-height:1;transition:transform .2s}
+details[open] .ghead::after{transform:rotate(90deg)}
+.ghead span{font-size:13px;color:var(--mute);font-weight:500;background:var(--fill);border-radius:999px;padding:1px 8px}
+details .gl{margin-top:6px}
+.gl{background:var(--card);border-radius:16px;box-shadow:var(--sh);overflow:hidden}
+.gl div{padding:12px 16px;border-bottom:.5px solid var(--sep)}
+.gl div:last-child{border-bottom:0}
+.gl b{font-size:16px}
+.gl .sc{font-family:inherit;font-size:18px;color:var(--gold);margin-left:8px}
+.gl p{font-size:15px;color:var(--ink2);margin-top:2px}
+.vid{display:flex;gap:14px;align-items:center;text-decoration:none;color:inherit}
+.vid .yt{width:54px;height:38px;border-radius:10px;background:#FF0033;flex:none;display:flex;align-items:center;justify-content:center}
+.vid .yt::after{content:"";border-left:13px solid #fff;border-top:8px solid transparent;border-bottom:8px solid transparent;margin-left:3px}
+.vid h3{margin:0}
+.vid p{font-size:14px;color:var(--mute);margin-top:2px}
+.vid .go{margin-left:auto;color:#AEAEB2;font-size:20px}
+.story p{font-size:16px;line-height:1.65;color:var(--ink2)}
+.story p+p{margin-top:12px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0}
+.two .s{border-radius:14px;padding:13px 15px;color:#fff;font-size:14.5px;line-height:1.45}
+.two .s b{display:block;font-size:15.5px;margin-bottom:3px}
+.two .a{background:var(--gold)}.two .b{background:var(--navy)}
+.lin{text-align:center;font-size:14.5px;font-weight:600;color:var(--ink2);line-height:1.9;margin:6px 0 2px}
+.lin span{display:inline-block;background:var(--fill);border-radius:999px;padding:2px 12px}
+.note{border-left:3px solid var(--gold);padding:2px 0 2px 12px;margin-top:12px;font-size:15px;color:var(--ink2)}
+.tl{position:relative;padding-left:22px}
+.tl::before{content:"";position:absolute;left:6px;top:8px;bottom:8px;width:2px;background:linear-gradient(var(--gold),var(--crimson),var(--navy),var(--green))}
+.tl div{position:relative;padding:7px 0}
+.tl div::before{content:"";position:absolute;left:-21px;top:14px;width:10px;height:10px;border-radius:50%;background:#fff;border:2.5px solid var(--gold)}
+.tl b{display:inline-block;min-width:74px;font-variant-numeric:tabular-nums}
+.tl span{color:var(--ink2);font-size:15px}
+.who{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.who .card{margin:0}
+.who .card h3{font-size:16px}
+.who .card small{display:block;font-size:12.5px;color:var(--mute);margin-bottom:4px}
+.who .card p{font-size:14.5px}
+.tree{font-size:15px;color:var(--ink2)}
+.tree ul{list-style:none;padding-left:18px;border-left:1.5px solid #D1D1D6;margin-left:6px}
+.tree>ul{border:0;padding-left:0;margin-left:0}
+.tree li{padding:3px 0 3px 4px}
+.tree .n{font-weight:600;color:var(--ink)}
+.tree .hus{background:#E2F3DF;border-radius:6px;padding:1px 6px}
+.tree .has{background:#FFF6CC;border-radius:6px;padding:1px 6px}
+.tree .han{background:#fff;border:1px solid #C7C7CC;border-radius:6px;padding:0 6px}
+.tag{display:inline-block;font-size:12px;font-weight:700;color:#fff;border-radius:999px;padding:1px 9px;margin-left:6px;vertical-align:1px}
+.br{border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:var(--card)}
+.br div{padding:13px 16px 13px 20px;border-bottom:.5px solid var(--sep);box-shadow:inset 5px 0 0 var(--c);background:var(--card)}
+.br b{color:var(--ink)}
+.br div:last-child{border-bottom:0}
+.br b{font-size:16px}
+.br small{color:var(--mute);font-size:13px;margin-left:6px}
+.br p{font-size:14.5px;color:var(--ink2);margin-top:2px}
+.q{font-size:16.5px;line-height:1.55}
+.q b{display:block;font-size:13px;color:var(--gold);margin-bottom:4px}
+.refs li{list-style:none;padding:10px 0;border-bottom:.5px solid var(--sep);font-size:15px;color:var(--ink2)}
+.refs li:last-child{border-bottom:0}
+.refs li span{display:block;font-size:13.5px;color:var(--mute);margin-top:3px}
+.credits li{font-size:13.5px;color:var(--mute);margin:4px 0 4px 18px}
+footer{margin-top:40px;font-size:13px;color:var(--mute);text-align:center}
+@media (max-width:520px){h1{font-size:29px}.two,.who{grid-template-columns:1fr}}
+@media (prefers-color-scheme:dark){
+ :root{--bg:#000;--card:#1C1C1E;--ink:#F5F5F7;--ink2:#D1D1D6;--mute:#98989D;--sep:rgba(255,255,255,.12);--fill:#2C2C2E;--sh:none}
+ nav{background:rgba(0,0,0,.75)} nav a:hover{background:#3A3A3C}
+ .tree .hus{background:#1F3A22}.tree .has{background:#3D3514}.tree .han{background:transparent;border-color:#636366}
+ .tl div::before{background:#000}
+ a{color:#7FA7E0}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="eyebrow">Handout · Beyond the Mainstream · FU Berlin · WiSe 2026/27</div>
+  <h1>Introduction to Alevism <span>&amp; the Figure of Ali</span></h1>
+  <div class="meta">Presenter: Navid Sahraei · Instructor: Dr. Khanna Usoyan<br>A companion to the seminar session: terms, videos, the Shahrbanu story, and material for further reading.</div>
+</header>
+<nav aria-label="Sections">
+  <a href="#glossary">Glossary</a><a href="#videos">Videos</a><a href="#shahrbanu">Shahrbanu</a><a href="#timeline">Timeline</a><a href="#who">Who’s who</a><a href="#tree">Family tree</a><a href="#branches">Branches</a><a href="#reading">Reading</a><a href="#credits">Credits</a>
+</nav>
+
+<!-- 1 GLOSSARY -->
+<section id="glossary">
+  <h2><small>1</small>Glossary</h2>
+  <p class="lead">Key terms from the session, with their original script where useful. Tap a group to open it, or type to search.</p>
+  <input type="search" id="q" placeholder="Search terms, e.g. batin, cem, Zaydiyya" aria-label="Filter glossary">
+  <div id="gl"></div>
+</section>
+
+<!-- 2 VIDEOS -->
+<section id="videos">
+  <h2><small>2</small>Videos</h2>
+  <p class="lead">All links open on YouTube.</p>
+  <a class="card vid" href="https://www.youtube.com/watch?v=ckaLSJIW-ls&amp;t=1839s" target="_blank" rel="noopener"><span class="yt"></span><span><h3>Sunni or Shia? Who Are the Alevis?</h3><p>Documentary on Alevi communities; opens at 30:39. The photos of the cem in the presentation are stills from this film.</p></span><span class="go">↗</span></a>
+  <a class="card vid" href="https://www.youtube.com/watch?v=e2zsCoNnfg8" target="_blank" rel="noopener"><span class="yt"></span><span><h3>UNESCO: Semah, Alevi-Bektaşi ritual</h3><p>Official UNESCO film on the semah, the ritual turning of the cem.</p></span><span class="go">↗</span></a>
+  <a class="card vid" href="https://www.youtube.com/watch?v=oFXKegyIMCA" target="_blank" rel="noopener"><span class="yt"></span><span><h3>Yarsan tanbur music</h3><p>Sacred tanbur music of the Yarsan (Ahl-e Haqq); the clip shown in class.</p></span><span class="go">↗</span></a>
+  <a class="card vid" href="https://www.youtube.com/watch?v=fD6zP8ayiIU" target="_blank" rel="noopener"><span class="yt"></span><span><h3>Farid Elhami: Yarsan tanbur</h3><p>A further example: tanbur music invoking Ali as a manifestation of Haqq (Truth).</p></span><span class="go">↗</span></a>
+  <a class="card vid" href="https://www.youtube.com/watch?v=w_HmZF-tK3c" target="_blank" rel="noopener"><span class="yt"></span><span><h3>Nusrat Fateh Ali Khan: <i>Man Kunto Maula</i></h3><p>South Asian Sufi qawwali on the saying “Of whomever I am master, Ali is his master”, sung across Sunni–Shia lines.</p></span><span class="go">↗</span></a>
+</section>
+
+<!-- 3 SHAHRBANU -->
+<section id="shahrbanu">
+  <h2><small>3</small>The Shahrbanu story: Iran meets Shiism</h2>
+  <div class="card story">
+    <p>Shahrbanu, “Lady of the Land” (that is, of Iran), is said to have been a daughter of Yazdgird III (r. 632–651), the last Sasanian king. In the story, she is captured during the Arab conquest, brought to Medina, and becomes the wife of al-Husayn, son of Ali. Their son, Ali Zayn al-Abidin, is the fourth Imam. Every Twelver Imam from the fourth to the twelfth would therefore descend from both the Prophet’s family and the Sasanian royal house.</p>
+    <div class="two">
+      <div class="s a"><b>Pre-Islamic Iranian stream</b>Sasanian kingship and <i>farr-i izadi</i> (Middle Persian <i>xwarrah</i>), the divine royal glory carried by the dynasty.</div>
+      <div class="s b"><b>Early Islamic stream</b>The Prophet’s family and the light of <i>walaya</i>, the sacred authority passed from Imam to Imam.</div>
+    </div>
+    <div class="lin"><span>Yazdgird III</span> → <span>Shahrbanu ⚭ al-Husayn</span> → <span>Ali Zayn al-Abidin, 4th Imam</span></div>
+    <p style="margin-top:14px"><b>What the sources say.</b> The oldest surviving accounts do not make her a princess. Ibn Sa‘d (d. 845) and Ibn Qutayba (d. 889) describe the mother of the fourth Imam as a slave from Sind, named Ghazala or Sulafa. The royal version appears in the late ninth century and grows in later Shiite works. The sources also give her many names: Shahrbanu, Shahzanan, Jahanshah, Salama, Sulafa, Ghazala. For these reasons the <i>Encyclopaedia Iranica</i> calls the Sasanian princess “undeniably legendary”.</p>
+    <p><b>Why it still matters.</b> For Amir-Moezzi, the story is historically improbable but culturally decisive. It joins Qurayshi prophetic sanctity with Sasanian royal glory, and so gives the Imams a double legitimacy. It also opened Shiite spirituality to pre-Islamic Iranian motifs, and helped make Imami Shiism feel at home in Iran long before the Safavids made it the state religion.</p>
+    <p><b>A shrine near Tehran.</b> On a hillside at Rey, south of Tehran, stands the shrine of Bibi Shahrbanu. According to its legend, after Karbala she fled to Iran; pursued by her enemies, she meant to cry “Ya Allah” but called out “Ya kuh!” (“O mountain!”), and the mountain opened to receive her. Traditionally only women and descendants of the Prophet may enter. Mary Boyce argued that the site was once holy to the Zoroastrian goddess Anahid (Anahita), and that her veneration continued here in Muslim form; a similar legend belongs to the Zoroastrian shrine of Banu Pars near Yazd.</p>
+    
+  </div>
+</section>
+
+<!-- 4 TIMELINE -->
+<section id="timeline">
+  <h2><small>4</small>Short timeline</h2>
+  <div class="card tl">
+    <div><b>632</b> <span>Death of the Prophet Muhammad; the succession crisis begins.</span></div>
+    <div><b>656–661</b> <span>Ali’s caliphate; capital moved from Medina to Kufa; first civil wars (Jamal, Siffin).</span></div>
+    <div><b>680</b> <span>Al-Husayn killed at Karbala.</span></div>
+    <div><b>685–687</b> <span>Al-Mukhtar’s revolt in Kufa in the name of Muhammad ibn al-Hanafiyya (Kaysaniyya).</span></div>
+    <div><b>740</b> <span>Revolt and death of Zayd ibn Ali in Kufa (Zaydiyya).</span></div>
+    <div><b>765</b> <span>Death of Ja‘far al-Sadiq; Ismailis and Twelvers part ways.</span></div>
+    <div><b>874 / 941</b> <span>Minor and Major Occultation of the twelfth Imam.</span></div>
+    <div><b>909</b> <span>Fatimid (Ismaili) caliphate proclaimed in North Africa; Cairo from 973.</span></div>
+    <div><b>945</b> <span>The Buyids take Baghdad; rise of rationalist Twelver theology (al-Mufid, al-Murtada, al-Tusi).</span></div>
+    <div><b>1090–1256</b> <span>Nizari Ismaili state centred on Alamut.</span></div>
+    <div><b>13th c.</b> <span>Hacı Bektaş Veli in Anatolia; the later Bektashi order takes his name.</span></div>
+    <div><b>1501</b> <span>Shah Ismail founds the Safavid state with Qizilbash support; Twelver Shiism becomes the state religion.</span></div>
+    <div><b>16th c.</b> <span>Ottoman persecution of the Qizilbash in Anatolia; centuries of secrecy follow.</span></div>
+    <div><b>Early 20th c.</b> <span>“Alevi” gradually replaces “Qizilbash” as the community’s name.</span></div>
+    <div><b>1989</b> <span>Alevi revival in Germany (the Hamburg “Alevi Manifesto”); the cem becomes public.</span></div>
+    <div><b>2010</b> <span>UNESCO inscribes the semah on its Representative List of the Intangible Cultural Heritage.</span></div>
+  </div>
+</section>
+
+<!-- 5 WHO'S WHO -->
+<section id="who">
+  <h2><small>5</small>Who’s who</h2>
+  <div class="who">
+    <div class="card"><small>d. 661</small><h3>Ali ibn Abi Talib</h3><p>Cousin and son-in-law of the Prophet, fourth caliph, first Imam of the Shia; the “Figure of Ali” of this session.</p></div>
+    <div class="card"><small>d. 670</small><h3>al-Hasan</h3><p>Elder son of Ali and Fatima; second Imam. Ancestor of the Hasanids (Zaydi imams of Yemen, many sharifs).</p></div>
+    <div class="card"><small>d. 680</small><h3>al-Husayn</h3><p>Younger son of Ali and Fatima; third Imam, killed at Karbala. Ancestor of the Twelver and Ismaili Imams.</p></div>
+    <div class="card"><small>d. c. 700</small><h3>Muhammad ibn al-Hanafiyya</h3><p>Son of Ali by Khawla of the Banu Hanifa; focus of the Kaysaniyya and the first idea of a hidden, returning Mahdi.</p></div>
+    <div class="card"><small>d. 765</small><h3>Ja‘far al-Sadiq</h3><p>Sixth Imam and great teacher; the split between his sons Isma‘il and Musa divides Ismailis from Twelvers.</p></div>
+    <div class="card"><small>13th c.</small><h3>Hacı Bektaş Veli</h3><p>Anatolian saint, patron of the Bektashi order and central to Alevi devotion; often shown with a lion and a deer.</p></div>
+    <div class="card"><small>1487–1524</small><h3>Shah Ismail I</h3><p>Founder of the Safavid state, leader of the Qizilbash; his poems, under the pen name Khata’i, are still sung by Alevis.</p></div>
+    <div class="card"><small>b. 1956</small><h3>Mohammad Ali Amir-Moezzi</h3><p>Director of Studies Emeritus at EPHE (Paris); leading historian of early Shiite esotericism and of the Figure of Ali.</p></div>
+  </div>
+</section>
+
+<!-- 6 TREE -->
+<section id="tree">
+  <h2><small>6</small>Ali’s descendants, simplified</h2>
+  <p class="lead">Which line of Ali’s family did each branch follow? Green: Husaynids; yellow: Hasanids; outlined: Ibn al-Hanafiyya’s line. “…” marks omitted generations.</p>
+  <div class="card tree">
+    <ul><li><span class="n">Ali ibn Abi Talib</span>
+      <ul>
+        <li><span class="n han">Muhammad ibn al-Hanafiyya</span> → Abu Hashim <span class="tag" style="background:var(--slate)">Kaysaniyya</span></li>
+        <li><span class="n hus">al-Husayn</span> → Ali Zayn al-Abidin
+          <ul>
+            <li><span class="hus">Zayd ibn Ali</span> (d. 740) → Yahya (d. 743) <span class="tag" style="background:var(--crimson)">Zaydiyya</span></li>
+            <li><span class="hus">Muhammad al-Baqir</span> → Ja‘far al-Sadiq
+              <ul>
+                <li><span class="hus">Isma‘il</span> → Muhammad ibn Isma‘il → hidden imams → Fatimid caliphs → Nizari imams (Alamut, Aga Khan) <span class="tag" style="background:var(--gold)">Ismailiyya</span></li>
+                <li><span class="hus">Musa al-Kazim</span> → Ali al-Rida → Imams 9–11 → Muhammad al-Mahdi (occultation 874/941) <span class="tag" style="background:var(--navy)">Twelvers</span></li>
+              </ul></li>
+          </ul></li>
+        <li><span class="n has">al-Hasan</span>
+          <ul>
+            <li><span class="has">al-Hasan al-Muthanna</span> → Ibrahim → … Ibrahim Tabataba → al-Qasim al-Rassi → Zaydi imams of Yemen (897–1962) <span class="tag" style="background:var(--crimson)">Zaydiyya</span></li>
+            <li><span class="has">al-Hasan al-Muthanna</span> → Abd Allah al-Mahd → Muhammad al-Nafs al-Zakiyya (revolt, d. 762)</li>
+            <li><span class="has">Zayd ibn al-Hasan</span> → … → al-Hasan ibn Zayd, Zaydi state in Tabaristan (864) <span class="tag" style="background:var(--crimson)">Zaydiyya</span></li>
+          </ul></li>
+      </ul></li></ul>
+    <p style="font-size:13.5px;color:var(--mute);margin-top:10px">The esoteric orders (Nusayris, Druze, Alevis and Bektashis, Yarsan) do not follow a single line of Imams. Simplified after F. Daftary, “ʿAlids”, <i>Encyclopaedia of Islam THREE</i> (2014); dates added from standard reference works.</p>
+  </div>
+</section>
+
+<!-- 7 BRANCHES -->
+<section id="branches">
+  <h2><small>7</small>Five branches at a glance</h2>
+  <div class="br">
+    <div style="--c:var(--slate)"><b>Kaysaniyya</b><small>late 7th c.</small><p>Around Muhammad ibn al-Hanafiyya. First ideas of occultation (<i>ghayba</i>), return (<i>raj‘a</i>) and the promised Mahdi.</p></div>
+    <div style="--c:var(--crimson)"><b>Zaydiyya</b><small>8th c. to today</small><p>Armed revolt instead of <i>taqiyya</i>; any learned and brave descendant of Fatima who rises can be Imam. Yemen today.</p></div>
+    <div style="--c:var(--gold)"><b>Ismailiyya</b><small>8th c. to today</small><p>An institutional <i>batin</i> and philosophical <i>ta’wil</i>; the Fatimid caliphate and Alamut. Today Bohras and Nizaris (Aga Khan).</p></div>
+    <div style="--c:var(--navy)"><b>Twelvers (Imamiyya)</b><small>10th c. to today</small><p>After the Occultation, a turn to law and rationalism; Safavid state religion from 1501. Iran, Iraq, Lebanon.</p></div>
+    <div style="--c:var(--green)"><b>Esoteric movements</b><small>medieval to today</small><p>Nusayris (Alawites), Druze, Alevis and Bektashis, Yarsan: Ottoman records called them all <i>ghulat</i>; Mir-Hosseini shows their living “inner truth”.</p></div>
+  </div>
+</section>
+
+<!-- 8 READING -->
+<section id="reading">
+  <h2><small>8</small>Further reading</h2>
+  <div class="card"><ul class="refs">
+    <li>Amir-Moezzi, M. A. (1994). <i>The Divine Guide in Early Shi‘ism: The Sources of Esotericism in Islam</i> (D. Streight, Trans.). Albany: SUNY Press.<span>The classic study of early Shiite esotericism and the Imam as “divine guide”. French original 1992.</span></li>
+    <li>Amir-Moezzi, M. A. (2011). <i>The Spirituality of Shi‘i Islam: Beliefs and Practices</i>. London: I.B. Tauris, with the Institute of Ismaili Studies.<span>Collected studies, including a chapter on Shahrbanu, “Lady of the Land of Iran and Mother of the Imams”.</span></li>
+    <li>Amir-Moezzi, M. A. (2020). <i>Ali, le secret bien gardé: Figures du premier Maître en spiritualité shi‘ite</i>. Paris: CNRS Éditions.<span>The main source for the “Figure of Ali”, the four enigmas and Ali as Messiah.</span></li>
+    <li>Amir-Moezzi, M. A. “Šahrbānu.” <i>Encyclopaedia Iranica</i>, online edition.<span>Concise survey of the sources and development of the Shahrbanu legend.</span></li>
+    <li>Boyce, M. (1967). “Bībī Shahrbānū and the Lady of Pārs.” <i>Bulletin of the School of Oriental and African Studies</i> 30, 30–44.<span>The shrine at Rey and its possible Zoroastrian background.</span></li>
+    <li>Daftary, F. (2007). <i>The Ismāʿīlīs: Their History and Doctrines</i> (2nd ed.). Cambridge: Cambridge University Press.<span>Standard history of the Ismaili branch, from Ja‘far al-Sadiq to the Aga Khans.</span></li>
+    <li>Daftary, F. (2014). “ʿAlids.” In <i>Encyclopaedia of Islam, THREE</i>. Leiden: Brill.<span>Source of the family tree shown in the session.</span></li>
+    <li>Dressler, M. (2008). “Alevīs.” In <i>Encyclopaedia of Islam, THREE</i>. Leiden: Brill.<span>Best short scholarly overview of Alevism.</span></li>
+    <li>Dressler, M. (2013). <i>Writing Religion: The Making of Turkish Alevi Islam</i>. New York: Oxford University Press.<span>How the category “Alevi” was formed in late Ottoman and early Republican discourse.</span></li>
+    <li>Halm, H. (2004). <i>Shi‘ism</i> (2nd ed.). Edinburgh: Edinburgh University Press.<span>Compact introduction to all the Shiite branches.</span></li>
+    <li>Mélikoff, I. (1998). <i>Hadji Bektach: un mythe et ses avatars</i>. Leiden: Brill.<span>The figure of Hacı Bektaş and the genesis of Alevi-Bektashi religiosity.</span></li>
+    <li>Mir-Hosseini, Z. (1994). “Inner Truth and Outer History: The Two Worlds of the Ahl-i Haqq of Kurdistan.” <i>International Journal of Middle East Studies</i> 26, 267–285.<span>The Yarsan (Ahl-e Haqq) between esoteric doctrine and history.</span></li>
+    <li>Raei, Sh. (2009). “Der Zusammenhang zwischen den religiösen Traditionen der Khāksār und denen der Ahl-e Haqq.” In <i>From Daēnā to Dîn</i> (pp. 349–355). Wiesbaden: Harrassowitz.<span>Links between the Khaksar dervishes and the Ahl-e Haqq.</span></li>
+    <li>Shankland, D. (2003). <i>The Alevis in Turkey: The Emergence of a Secular Islamic Tradition</i>. London: RoutledgeCurzon.<span>Anthropology of Alevi village life and its urban transformation.</span></li>
+    <li>Sökefeld, M. (2004). “Religion or Culture? Concepts of Identity in the Alevi Diaspora.” In W. Kokot et al. (Eds.), <i>Diaspora, Identity and Religion</i> (pp. 133–155). London: Routledge.<span>The Alevi movement in Germany and the “religion or culture” debate.</span></li>
+  </ul></div>
+</section>
+
+<!-- 9 CREDITS -->
+<section id="credits">
+  <h2><small>9</small>Image credits</h2>
+  <div class="card"><ul class="credits">
+    <li>Photos of the cem, semah, zakirs and public gatherings: stills from “Sunni or Shia? Who Are the Alevis?” (YouTube).</li>
+    <li>Qajar paintings of Ali by Esmail Jalayer, Mohammad Hassan Afshar, Abolhassan Sani‘ Homayoun, Agha Mostafa and Abolhassan Ghaffari: captions after Honaronline, “Imam Ali (AS) in the mirror of Iranian art” (2021); see also IRNA, “How did painters see Imam Ali?”.</li>
+    <li>Ali with Hasan and Husayn framed by the Light Verse; Ali with his sons and a lion; “two images of Ali”: popular Iranian devotional images, artists unknown.</li>
+    <li>Twelve Imams poster: © akg-images. Hacı Bektaş Veli: popular devotional painting.</li>
+    <li>Maps: “The World Alevis”, community-made map signed “BS Filiz” (Reddit); province map of unidentified origin. Both indicative only.</li>
+    <li>Portrait of M. A. Amir-Moezzi and book covers: publishers’ and public sources.</li>
+    <li>Family tree: simplified after F. Daftary, “ʿAlids”, <i>EI3</i>, via the Persian Wikipedia template “Nawādegān-e ʿAli”.</li>
+  </ul></div>
+</section>
+
+<footer>Prepared for the seminar “Beyond the Mainstream: Religious Minorities in the Iranian-Speaking World”, Freie Universität Berlin.</footer>
+</div>
+
+<script>
+(function(){
+var G=[
+ ["Alevi terms",[
+  ["Âşık","Âşık","Wandering bard who preserves Alevi poetry and memory."],
+  ["Buyruk","Buyruk","“Orders”: Alevi doctrinal manuals (16th c.), kept secret in Dede families until the mid-20th century."],
+  ["Cem / Cemevi","Cem · Cemevi","The communal Alevi ritual (“the prayer of Alevis is cem”); the assembly house where it takes place."],
+  ["Dede","Dede","Hereditary Alevi spiritual leader, ritual guide and mediator."],
+  ["Dört Kapı","Dört Kapı","The Four Gates: Şeriat (law), Tarikat (path), Marifet (gnosis), Hakikat (Truth)."],
+  ["Görgü","Görgü","Ritual of reconciliation and moral accounting before the Cem."],
+  ["Kırklar Cemi","Kırklar Cemi","The “Gathering of the Forty”: Muhammad’s heavenly meeting with the saints led by Ali."],
+  ["Lokma","Lokma","The shared communal meal that ends the Cem."],
+  ["Matem Orucu","Matem Orucu","Twelve-day mourning fast in Muharram for the martyrs of Karbala."],
+  ["Musahiplik","Müsahiplik","Ritual companionship: a lifelong pact between two married couples."],
+  ["Nefes","Nefes","Alevi devotional poem or hymn, sung with the saz."],
+  ["Ocak","Ocak","“Hearth”: a sacred lineage from which Dedes descend."],
+  ["Oniki Hizmet","Oniki Hizmet","The twelve ritual services performed during the Cem."],
+  ["Qizilbash","Kızılbaş · قزلباش","“Red heads”: Turkmen and Iranian followers of the Safawiyya order and Shah Ismail; forebears of today’s Alevis."],
+  ["Saz","Saz · Bağlama","Long-necked lute accompanying hymns; called the “Quran with strings”."],
+  ["Semah","Semah","Ritual turning performed by men and women together."],
+  ["Seyyid","سيد","A descendant of the Prophet’s family through Ali and Fatima."],
+  ["Talip","Talip","A lay disciple family bound to a Dede’s Ocak."],
+  ["Zakir","Zâkir","The musician-singer of the Cem, who plays the saz and sings hymns."]]],
+ ["Shiite and Islamic concepts",[
+  ["Ahl al-Bayt","أهل البيت","“People of the House”: the Prophet’s family."],
+  ["Bara’a","براءة","Sacred dissociation from the enemies of the Imam."],
+  ["Batin","باطن","The inner, hidden dimension: the spiritual meaning behind the outer form."],
+  ["Din Ali","دين علي","“The Religion of Ali”: phrase recorded by early chroniclers for the faith of Ali’s partisans."],
+  ["al-Faruq","الفاروق","Title meaning Saviour, from Syriac paruqa; applied first to Ali in early Shiite texts."],
+  ["Farr-i Izadi (Xwarrah)","فرّ ایزدی","Divine royal glory in Iranian kingship."],
+  ["Futuwwa","فتوة","Spiritual chivalry."],
+  ["Ghayba (Occultation)","غيبة","The concealment of the Imam, expected to end with his return."],
+  ["Ghuluww / Ghulat","غلو · غلاة","“Exaggeration”: the label heresiographers gave to beliefs about the Imams they judged extreme."],
+  ["Haqq","حق","Truth; also a name of God."],
+  ["Lahut / Nasut","لاهوت · ناسوت","Divinity and humanity: the two natures of the Imam (vocabulary from Syriac Christianity)."],
+  ["Mahdi","مهدي","The “rightly guided” saviour who restores justice at the end of time."],
+  ["Marja‘-e Taqlid","مرجع تقليد","Senior Twelver jurist whom believers follow in legal matters."],
+  ["Mushaf","مصحف","A written codex of the Quran. The Mushaf of Ali is said to hold the complete text with commentary."],
+  ["Nubuwwa","نبوة","Prophethood."],
+  ["Paraclete","παράκλητος","Greek “comforter” or “advocate”; early texts link Muhammad to this figure."],
+  ["Raj‘a","رجعة","The return of the hidden Imam or of past figures at the end of time."],
+  ["Silsila","سلسلة","The spiritual chain of transmission of a Sufi order."],
+  ["Sunna","سنة","Normative practice; here, the precedent set by the first caliphs."],
+  ["Tanzil","تنزيل","The “sending down” of revelation: the literal, revealed text of the Quran."],
+  ["Taqiyya","تقية","Precautionary concealment of one’s faith under threat."],
+  ["Ta’wil","تأويل","Esoteric interpretation that leads the text back to its primordial origin."],
+  ["Theophany","","Manifestation of God’s Names and Attributes, not His Essence, in a human figure."],
+  ["Walaya / Wilaya","ولاية","Sacred loyalty and sanctity; the spiritual authority of the Imam or saint."],
+  ["Zahir","ظاهر","The outer, manifest dimension of a reality: the literal text and the law."]]],
+ ["Branches, groups and dynasties",[
+  ["Alamut","الموت","Mountain fortress in northern Iran; seat of the Nizari Ismaili state (1090–1256)."],
+  ["Bektashi","Bektaşi","Sufi order named after Hacı Bektaş Veli (13th c.), closely linked to Alevism."],
+  ["Bohras","بهره","Musta‘li-Tayyibi Ismailis, mainly in South Asia."],
+  ["Buyids","آل بویه","Iranian Shiite dynasty that controlled Baghdad from 945 to 1055."],
+  ["Druze","دروز","Community that grew out of Fatimid Ismailism in the 11th century; Lebanon, Syria, Israel."],
+  ["Fatimids","فاطميون","Ismaili caliphate (909–1171), ruling from Cairo from 973."],
+  ["Imamiyya (Twelvers)","إمامية","The mainstream Shia branch that recognises twelve Imams."],
+  ["Ismailiyya","إسماعيلية","Shiite branch following Isma‘il, son of Ja‘far al-Sadiq: Fatimids, Nizaris, Bohras."],
+  ["Kaysaniyya","كيسانية","Early Shiite movement around Muhammad ibn al-Hanafiyya; first to speak of the Mahdi’s occultation and return."],
+  ["Khaksar","خاکسار","Iranian dervish order with close ties to the Ahl-e Haqq."],
+  ["Mu‘tazila","معتزلة","Rationalist school of Islamic theology."],
+  ["Nizaris","نزاریان","The Ismaili line that followed Nizar after 1094; today led by the Aga Khan."],
+  ["Nusayris (Alawites)","نصيرية","Esoteric Shiite community, mainly in Syria; distinct from Anatolian Alevis."],
+  ["Safawiyya","صفویه","Sufi order from Ardabil whose leaders founded the Safavid Empire in Iran (1501)."],
+  ["Yarsan (Ahl-e Haqq)","یارسان · اهل حق","Esoteric religious community, mainly Kurdish-speaking, in western Iran and Iraq, with its own sacred texts and tanbur music."],
+  ["Zaydiyya","زيدية","Shiite branch named after Zayd ibn Ali: any learned descendant of Fatima who rises can be Imam. Yemen today."]]],
+ ["Music and places",[
+  ["al-Hira","الحيرة","Pre-Islamic Arab capital in southern Iraq, a centre of Eastern Christianity."],
+  ["Qawwali","قوالی","Sufi devotional music of South Asia."],
+  ["Qumm (Qom)","قم","City in Iran; centre of early Shiite hadith scholarship."],
+  ["Tanbur","تنبور","Long-necked lute, the sacred instrument of the Yarsan."]]]
+];
+var box=document.getElementById("gl");
+function esc(s){return s.replace(/[&<>]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;"}[c]})}
+function render(q){
+  q=(q||"").toLowerCase().trim(); var h="";
+  G.forEach(function(g){
+    var items=g[1].filter(function(t){return !q||(t[0]+" "+t[1]+" "+t[2]).toLowerCase().indexOf(q)>-1});
+    if(!items.length) return;
+    h+='<details'+(q?' open':'')+'><summary class="ghead">'+g[0]+' <span>'+items.length+'</span></summary><div class="gl">'+items.map(function(t){return '<div><b>'+esc(t[0])+'</b>'+(t[1]&&t[1]!==t[0]?'<span class="sc">'+esc(t[1])+'</span>':'')+'<p>'+esc(t[2])+'</p></div>'}).join("")+'</div></details>';
+  });
+  box.innerHTML=h||'<p class="lead">No term matches.</p>';
+}
+render(""); document.getElementById("q").addEventListener("input",function(){render(this.value)});
+})();
+</script>
+</body>
+</html>
